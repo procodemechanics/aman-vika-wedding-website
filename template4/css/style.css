@@ -528,7 +528,7 @@ h1, h2, h3, h4, h5, h6, figure {
   clear: both;
 }
 .timeline > li > .timeline-panel {
-  width: 40%;
+  width: 45%;
   float: left;
   border: 1px solid #d4d4d4;
   padding: 30px;
@@ -578,11 +578,12 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   color: #fff;
   width: 480px;
-  height: 480px;
+  height: 360px;
   line-height: 50px;
   font-size: 1.4em;
   text-align: center;
   position: absolute;
+  padding: 30px;
   top: 16px;
   left: 50%;
   /* margin-left: -80px; */
@@ -591,8 +592,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-border-radius: 30px 0px;
   -moz-border-radius: 30px 0px;
   -ms-border-radius: 30px 0px;
-  /* border-radius: 30px 0px; */
-  border-radius: 50%;
+  border-radius: 30px 0px;
+  /* border-radius: 50%; */
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
@@ -608,11 +609,12 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   color: #fff;
   width: 480px;
-  height: 360px;
+  height: 480px;
   line-height: 50px;
   font-size: 1.4em;
   text-align: center;
   position: absolute;
+  padding: 30px;
   top: 16px;
   right: 50%;
   /* margin-right: -80px; */
@@ -621,14 +623,14 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-border-radius: 30px 0px;
   -moz-border-radius: 30px 0px;
   -ms-border-radius: 30px 0px;
-  /* border-radius: 30px 0px; */
-  border-radius: 300px;
+  border-radius: 30px 0px;
+  /* border-radius: 300px; */
 }
 @media screen and (max-width: 480px) {
-  .timeline > li > .timeline-badge2 {
+  .timeline > li.timeline-inverted > .timeline-badge2 {
     width: 60px;
     height: 60px;
-    margin-left: -20px !important;
+    margin-right: -20px !important;
   }
 }
 /* .timeline > li > .timeline-badge {
